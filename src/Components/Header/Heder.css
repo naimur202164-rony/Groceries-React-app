@@ -24,6 +24,6 @@ nav {
   justify-content: space-between;
 }
 
-nav ul li {
+nav ul {
   display: flex;
 }
