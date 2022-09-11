@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <div>
+      <h2>h</h2>
+    </div>
   )
 }

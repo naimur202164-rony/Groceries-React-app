@@ -5,7 +5,7 @@ import Header from "./../Components/Header/Header";
 import "./Home.css";
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <Header />
       <Footer />
     </div>
