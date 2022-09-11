@@ -11,12 +11,21 @@ export default function Header() {
           <img src={logo} alt="Image-logos" />
         </div>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Shop</a></li>
+          <li>
+            <a href="#" className="active">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#">Menu</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#">Shop</a>
+          </li>
         </ul>
-
         <div>
           <img src={search} alt="" />
           <input type="text" placeholder="Search" />
