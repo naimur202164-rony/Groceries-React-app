@@ -27,3 +27,11 @@ nav {
 nav ul {
   display: flex;
 }
+
+nav ul li {
+  margin-right: 2.1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
