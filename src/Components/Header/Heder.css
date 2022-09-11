@@ -8,6 +8,7 @@
   --light-gray: #4d4d4d;
   --red-color: #f54748;
   --white-color: #ffffff;
+  --nav-color: #f2f2f2;
 }
 
 .container {
@@ -31,7 +32,36 @@ nav ul {
 nav ul li {
   margin-right: 2.1rem;
 }
-
+.active {
+  color: var(--red-color);
+}
 nav ul li a {
+  font-size: 1rem;
+  font-weight: ;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
+  color: var(--light-gray);
+}
+nav ul li a:hover {
+  color: var(--red-color);
+}
+nav input {
+  position: absolute;
+  background: rgb(185, 171, 171);
+  padding: 0.3rem 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+}
+
+nav .search {
+  align-items: center;
+  position: relative;
+  margin-right: -1.5rem;
+  z-index: 1;
+}
+nav .bucket {
+  margin-top: 0.2rem;
+  align-items: center;
+  position: relative;
+  margin-left: 12rem;
 }

@@ -27,9 +27,9 @@ export default function Header() {
           </li>
         </ul>
         <div>
-          <img src={search} alt="" />
+          <img className="search" src={search} alt="" />
           <input type="text" placeholder="Search" />
-          <img src={bucket} alt="" />
+          <img className="bucket" src={bucket} alt="" />
         </div>
       </nav>
     </div>
