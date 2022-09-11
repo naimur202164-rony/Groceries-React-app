@@ -3,11 +3,23 @@
   padding: 0;
 }
 
+/* Root */
+:root {
+  --light-gray: #4d4d4d;
+  --red-color: #f54748;
+  --white-color: #ffffff;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1136px;
 }
 
-h2 {
-  color: green;
+/* Header */
+
+nav {
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
