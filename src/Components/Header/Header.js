@@ -2,10 +2,10 @@ import React from "react";
 import bucket from "../../assets/bucket.png";
 import logo from "../../assets/logo.png";
 import search from "../../assets/search.png";
-import "../../Pages/Home.css";
+import './Heder.css';
 export default function Header() {
   return (
-    <div>
+    <div className="container">
       <nav>
         <div>
           <img src={logo} alt="Image-logos" />
@@ -15,7 +15,7 @@ export default function Header() {
             <li>
               <a href="#">Home</a>
             </li>
-          </ul>
+          </ul> 
           <ul>
             <li>
               <a href="#">Menu</a>
