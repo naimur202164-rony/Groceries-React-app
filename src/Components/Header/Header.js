@@ -1,5 +1,7 @@
 import React from "react";
+import bucket from "../../assets/bucket.png";
 import logo from "../../assets/logo.png";
+import search from "../../assets/search.png";
 export default function Header() {
   return (
     <div>
@@ -29,7 +31,12 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <div></div>
+        <div>
+          <img src={search} alt="" />
+          <input type="text" placeholder="Search" />
+          <img src={bucket} alt="" />
+        
+        </div>
       </nav>
     </div>
   );
