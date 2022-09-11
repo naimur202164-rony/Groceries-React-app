@@ -1,8 +1,9 @@
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className="App">
-          <h2>Naimur Rahman D</h2>
+    <div>
+      <Home />
     </div>
   );
 }
